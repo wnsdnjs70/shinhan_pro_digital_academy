@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+select{
+    width: 7vw;
+    height: 20vh;
+}
+div.contentHead ul li{
+    display: inline-block;
+}
+div.contentBody{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5vw;
+}
+div.button{
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+}
+div.button button{
+    margin-bottom: 1vw;
+}

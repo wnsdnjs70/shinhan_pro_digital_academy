@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/hw.js"></script>
+    <link rel="stylesheet" href="hw.css">
+</head>
+<body>
+    <!--  
+
+        1. Input text 태그로 글자 입력 후 'Enter'누르면 왼쪽 select 태그에 추가
+        2. 공백 문자열 입력시 alert 경고
+        3. 왼쪽 select 태그에 element가 10개면 추가 안 됨 + alert 경고 (max:10)
+        4. 양 쪽 select 태그에서 다중 값 선택 후 버튼 누르면 옆의 select로 이동
+        5. 반대 쪽에 존재하는 element의 수 + 이동하려는 element의 수 > 10 이면 이동 불가 (alert)
+        6. select 태그의 option을 더블 클릭하면 사라짐
+
+    -->
+
+    <div class="contentHead">     
+        <form action="#">
+            <ul>
+                <li>
+                    목록 추가
+                </li>
+                <li>
+                    <input type="text" name="text" id="input" class="input">
+                </li>
+                <li>
+                    <button id="addBtn">추가</button> <br>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <div class="contentBody">
+        <select name="selectLeft" id="selectLeft" class="left" size="10" multiple>
+        </select>
+    
+        <div class="button">
+            <button id="topBtn">=>></button>
+            <button id="botBtn"><<=</button>
+        </div>
+                
+        <select name="selectRight" id="selectRight" class="right" size="10" multiple>
+        </select>
+    </div>
+</body>
+</html>
