@@ -1,0 +1,45 @@
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+ul li a:hover{
+    background-color: lightcoral;
+}
+
+.tabpanel{
+    position: absolute;
+    top: 4.2rem;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    height: 40vh;
+}
+.tabpanel h2,p{
+    margin-left: 4rem;
+}
+
+#tabpanel2, #tabpanel3{
+    display: none;
+}
+
+#tabpanel1{
+    background-color: lightcyan;
+}
+#tabpanel2{
+    background-color: lightblue;
+}
+#tabpanel3{
+    background-color: lightskyblue;
+}
