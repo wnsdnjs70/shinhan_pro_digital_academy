@@ -15,9 +15,9 @@ ul li a {
     padding-top: 2vh;
 }
 
-ul li a:hover{
+/* ul li a:hover{
     background-color: lightcoral;
-}
+} */
 
 .tabpanel{
     position: absolute;
@@ -25,21 +25,18 @@ ul li a:hover{
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     height: 40vh;
+    display: none;
 }
 .tabpanel h2,p{
     margin-left: 4rem;
 }
 
-#tabpanel2, #tabpanel3{
-    display: none;
+
+.visit{
+    display: block;
 }
 
-#tabpanel1{
-    background-color: lightcyan;
-}
-#tabpanel2{
-    background-color: lightblue;
-}
-#tabpanel3{
-    background-color: lightskyblue;
+.tabBtn{
+    background-color: lightcoral;
+    color: white;
 }
